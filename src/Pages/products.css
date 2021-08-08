@@ -1,0 +1,44 @@
+.product-listing{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-rows: 400px 400px;
+    margin-top: 5rem;
+    margin-left: 3rem;
+}
+
+.product-card{
+    box-shadow: 5px 5px 5px rgb(190, 189, 189);
+    height: 49vh;
+    width: 200px;
+}
+
+.product-card img{
+    height: 30vh;
+    width: 200px;
+}
+
+.product-details{
+    text-align: start;
+    padding-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.2rem;
+}
+
+.product-price{
+    font-weight: 600;
+}
+
+.product-brand{
+    color: rgb(136, 135, 135);
+    font-weight: bold;
+}
+
+.btn{
+    height: 4vh;
+    background-color: rgb(87, 87, 243);
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+}

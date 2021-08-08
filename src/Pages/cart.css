@@ -1,0 +1,28 @@
+.cart{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-top: 5rem;
+    margin-left: 3rem;
+}
+
+.cart-listing{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-rows: 400px 400px;
+}
+
+.product-quantity{
+    text-align: center;
+}
+
+.quantity-btn{
+    background-color:rgb(87, 87, 243);
+    color: white;
+    border: none;
+}
+
+.price-details{
+    height: 150px;
+    width: 250px;
+    border: 1px solid black;
+}
